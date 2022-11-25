@@ -5,10 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'dosis',sans-serif;
-    box-sizing: border-box;
     margin: 0;
-    
-   
     
 }
 header{
@@ -140,30 +137,34 @@ div>a:hover{
 }
 .grid-content,.back {
     position:absolute;
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 350px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 .back {
     background-color: #dbd6d6;
-    padding: 2rem;
     color: black;
     font-weight: 600;
     font-size: 1.2rem;
     transform: rotateY(180deg);
     opacity: 0.7;
-    height: 380px;
+    height: 360px;
 }
 .sheet-title{
     font-size:1.5rem ;
     text-align: center;
     margin-bottom: 3rem;
+    margin-top: 2rem;
 
 }
+table{
+    margin-left: 2rem;
+}
+
 
 td~.info-content{
-    padding-left: 1.2rem;
+    padding-left: 1rem;
 }
 
 
@@ -184,6 +185,61 @@ td~.info-content{
     text-align: center;
     opacity:0.7;
 
+}
+#home-appliance-and-accessories{
+    margin-top: 3.2rem; 
+    
+
+}
+.home-appliance-section{
+    
+    padding: 2rem;
+    text-align: center;
+    background-image: url(../res/h.webp);
+    width: auto;
+    height:500px;
+    background-size:cover;
+    
+}
+.home-appliance-and-accessories-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+
+
+}
+.home-appliance-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #dbd6d6;
+    opacity: 0.9;
+    padding: 20px;
+    line-height: 1.6;
+    margin-top:10%;
+    border-radius: 15px;
+   
+}
+.see-more{
+    margin-top: 2rem;
+    background-color: #054b91;
+    border: #054b91;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 20px;
+}
+.see-more:hover{
+    background-color: #0658aa;
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
 }
 
 

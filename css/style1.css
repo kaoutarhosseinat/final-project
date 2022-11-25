@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Lato:wght@300;700&family=Poppins:wght@400;500;600&family=Source+Sans+3&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'dosis', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    background-color: #054b91;
+    opacity: 0.9;
+    z-index: 10;
+
+
+
+}
+
+.logo {
+    padding: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+div>a {
+    color: white;
+
+}
+
+div>a:hover {
+
+    background-size: 100% 100%, auto;
+
+}
+
+.nav-items {
+    border-radius: 5px;
+    padding: 15px;
+    background-image: linear-gradient(#0658aa, #0658aa);
+    background-size: 0 100%, auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .2s ease-out;
+}
+
+.dropdown-button {
+    position: absolute;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 1;
+
+
+}
+
+.dropdown-content a {
+    background-color: #054b91;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0658aa;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: #0658aa;
+}
+.h-app{
+    background-image: url(../res/ovens.webp);
+        background-size: cover;
+        width: 100vw;
+        height: 600px;
+        position:static;
+}
+.first-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    position:absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    font-size: 2.2rem;
+    border: #dbd6d6;
+    background-color: #dbd6d6;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.h{
+    background-color: #f7f7f7;
+    padding:25px;
+    
+
+}
+.h-app-title{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+
+}
+.h-app-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding:30px;
+    text-align: center;
+
+}
+.h-app-snd-title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 20px;
+
+}
+.h-app-snd-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 4rem;
+    width:400px ;
+    
+
+}
+.flex{
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.f-img{
+    margin: 30px;
+    width: 500px;
+    height: 300px;
+}
+
+.h-app-thd-title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    position: absolute;
+    right: 15%;
+    margin: 20px;
+}
+.h-app-thd-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 4rem;
+    width: 400px;
+    
+}
+.thd-img{
+    margin-top: 6rem;
+}
+.up{
+    border: #054b91;
+    background-color: #054b91;
+    padding:  10px 20px;
+    margin: 1.2rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    opacity:0.8;
+
+}
+.up:hover{
+    background-color: #0658aa;
+}
+a:active{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+.block{
+    display: block;
+}
+.h-app-frth-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 4rem;
+    width: 400px;
+
+}
+.h-app-frth-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 20px;
+
+}
+.h-frth{
+    background-color: #dbd6d6;
+    padding: 25px;
+
+}
+.micro-container{
+   position: relative;
+    width:450px;
+    height: 380px;
+}
+.micro-img{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+   
+}
+.mid{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0%;
+    transform: translate(0% , 0%);
+    -ms-transform: translate(0%, 0%) ;
+    text-align: center;
+    
+    
+}
+.micro-container:hover .mid{
+    opacity: 0.7;
+    background-color: #f7f7f7;
+    
+   
+}
+.micro-text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+.h-app-fifth{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hob-img{
+    width: 380px;
+    height: 280px;
+
+}
+.flex-hobs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hbo-title{
+    width: 350px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #dbd6d6;
+    opacity: 0.8;
+    padding: 15px;
+
+}
+.ref-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+
+.see-more {
+    margin-top: 2rem;
+    background-color: #054b91;
+    border: #054b91;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.see-more:hover {
+    background-color: #0658aa;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+.home-accesories-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #dbd6d6;
+    opacity: 0.9;
+    padding: 20px;
+    line-height: 1.6;
+    margin-top: 20%;
+    border-radius: 15px;
+    position: absolute;
+
+}
+.accessories-section{
+    background-image: url(../res/electromenager-top-cuisine.jpg);
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+
+
