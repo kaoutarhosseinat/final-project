@@ -166,8 +166,44 @@ div>a:hover {
 .button{
     padding: 10px 20px ;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #054b91;
     color: white;
     border: #054b91;
 
+}
+.bxl-instagram,
+.bxl-linkedin,
+.bxl-github,
+.bxl-gmail {
+    font-size: 3rem;
+    color: #dbd6d6;
+    margin-right: 10px;
+}
+
+.bxl-instagram:hover {
+    color: #f7f7f7;
+}
+
+.bxl-linkedin:hover {
+    color: #f7f7f7;
+}
+
+.bxl-github:hover {
+    color: #f7f7f7;
+}
+
+.bxl-gmail:hover {
+    color: #f7f7f7;
+}
+
+footer {
+    background-color: #054b91;
+    padding: 20px 30px;
+    margin-top: 30px;
+
+}
+
+.contact {
+    text-align: center;
 }

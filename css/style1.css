@@ -90,6 +90,7 @@ div>a:hover {
 .dropdown:hover .dropdown-button {
     background-color: #0658aa;
 }
+
 .h-app{
     background-image: url(../res/ovens.webp);
         background-size: cover;
@@ -152,6 +153,7 @@ div>a:hover {
     
 
 }
+
 .flex{
    display:flex;
    justify-content: space-evenly;
@@ -336,6 +338,41 @@ a:active {
     text-align: center;
     margin-top: 2rem;
     
+}
+
+.bxl-instagram,
+.bxl-linkedin,
+.bxl-github,
+.bxl-gmail {
+    font-size: 3rem;
+    color: #dbd6d6;
+    margin-right: 10px;
+}
+
+.bxl-instagram:hover {
+    color: #f7f7f7;
+}
+
+.bxl-linkedin:hover {
+    color: #f7f7f7;
+}
+
+.bxl-github:hover {
+    color: #f7f7f7;
+}
+
+.bxl-gmail:hover {
+    color: #f7f7f7;
+}
+
+footer {
+    background-color: #054b91;
+    padding: 20px 30px;
+
+}
+
+.contact {
+    text-align: center;
 }
 
 
