@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Lato:wght@300;700&family=Poppins:wght@400;500;600&family=Source+Sans+3&display=swap');
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'dosis', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    background-color: #054b91;
+    opacity: 0.9;
+    z-index: 10;
+
+
+
+}
+
+.logo {
+    padding: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+div>a {
+    color: white;
+
+}
+
+div>a:hover {
+
+    background-size: 100% 100%, auto;
+
+}
+
+.nav-items {
+    border-radius: 5px;
+    padding: 15px;
+    background-image: linear-gradient(#0658aa, #0658aa);
+    background-size: 0 100%, auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .2s ease-out;
+}
+
+.dropdown-button {
+    position: absolute;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 1;
+
+
+}
+
+.dropdown-content a {
+    background-color: #054b91;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0658aa;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: #0658aa;
+}
+.section-title{
+    background-image: url(../res/forces-slider.webp);
+    background-size: cover;
+    position: static;
+    height: 600px;
+    width: 100vw;
+}
+.title{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        right: 30%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 2.2rem;
+        border: #dbd6d6;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        padding: 15px;
+        color: black;
+        text-shadow: rgba(0, 0, 0, 0.438);
+        opacity: 0.65;
+}
+.text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 20px;
+    line-height: 1.6;
+    margin-top: 2rem;
+    text-align: center;
+    
+
+}
+.text-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3.2rem;
+    
+    
+}
+.backg{
+    background-color: #dbd6d6;
+    padding-top: 10px;
+    padding-bottom: 3rem;
+}
+.inter-pres{
+    background-color: #f7f7f7;
+    opacity:0.8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inter-title,.concept-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3.2rem;
+       
+
+}
+.inter-text,.concept-text{
+    font-weight: 600;
+        font-size: 1.2rem;
+        padding: 20px;
+        line-height: 1.6;
+        margin-top: 2rem;
+        text-align: center;
+
+
+}
+.image{
+    width: 300px;
+    height: 250px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.find-us{
+    margin: 10px;
+    text-align: center;
+}
+.find{
+    background-color: #054b91;
+    color: white;
+    padding:10px 20px;
+    border: #054b91;
+}
+.find:hover{
+    background-color: #0658aa;
+
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
+}
+
